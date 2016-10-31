@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <h1>Testataan get-metodia</h1>
 
 <form method="get" action="get.php">
@@ -17,3 +18,4 @@ $sukunimi=$_GET['sn'];
 echo "Terve $etunimi $sukunimi";
 }
 ?>
+<?php include 'footer.php'; ?>
