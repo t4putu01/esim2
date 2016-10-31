@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <H1>Php Array</H1>
 <?php
 $asiakkaat=array(
@@ -24,3 +25,4 @@ echo 'Etunimi '.$rivi['en'].' Sukunimi '.$rivi['sn']. '<br>';
 	}
 	?>
 </TABLE>
+<?php include 'footer.php'; ?>
