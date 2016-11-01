@@ -21,7 +21,7 @@ echo 'Etunimi '.$rivi['en'].' Sukunimi '.$rivi['sn']. '<br>';
 	<TR><TH>Etunimi</TH><TH>Sukunimi</TH></TR>
 	<?php
 	foreach ($asiakkaat as $rivi){
-	echo '<tr><td>' .$rivi['en']. '</td><td>' .$rivi['sn']. '</td><td>';
+	echo '<tr><td>' .$rivi['en']. '</td><td>' .$rivi['sn']. '</td></td>';
 	}
 	?>
 </TABLE>

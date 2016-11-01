@@ -6,12 +6,12 @@ $sql="SELECT etunimi, sukunimi FROM asiakkaat";
 //echo $sql;
 $asiakkaat=$db->query($sql);
 	echo "<TABLE border=1>";
-	echo "<TR><TH>Etunimi</TH>Sukunimi</TH></TR>";
-
+	echo "<TR><TH>Etunimi</TH><TH>Sukunimi</TH></TR>";
 	foreach ($asiakkaat as $rivi) {
- 	 	echo '<tr><td>'.$rivi ['etunimi']. '<td><td>'.$rivi['sukunimi']. '</td></td>';
+ 	 	echo '<tr><td>'.$rivi ['etunimi']. '</td><td>'.$rivi['sukunimi']. '</td></td>';
  	 }
  	 echo "/TABLE";
 
 ?>
+
 <?php include "footer.php";?>
