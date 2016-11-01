@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <h1>Testataan post-metodia</h1>
 <form method="post" action="post.php">
 <label>Etunimi</label>
@@ -16,3 +17,4 @@ $sukunimi=$_POST['sn'];
 echo "Terve $etunimi $sukunimi";
 }
 ?>
+<?php include 'footer.php'; ?>
